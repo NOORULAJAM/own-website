@@ -1,0 +1,412 @@
+body
+{
+    background-color: rgba(202, 202, 202, 0.877) !important;
+}
+.heading
+{
+    text-align: center;
+    background-color: rgba(148, 148, 231, 0.808);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 4px 2px 4px gray;
+    height: 50px;
+}
+.navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size: 2em !important;
+    text-shadow: 2px 4px 2px gray;
+}
+.bg-lights
+{
+    background-color: rgba(126, 126, 233, 0.808) !important;
+    width: 100%;
+    height: 70px;
+}
+.btn-secondary
+{
+    background-color: rgba(148, 148, 231, 0.808) !important;
+    border: none !important;
+    color: black !important;
+    margin-top: 2px;
+}
+
+#carouselExampleControls
+{
+
+    box-shadow: 4px 3px 3px gray;  
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important; 
+}
+
+.fa-instagram
+{
+margin-right: 15px;
+margin-left: 10px;
+ 
+}
+.social
+{
+    color: black;
+}
+.fa-facebook-official
+{
+  
+   margin-right: 15px;
+}
+.fa-youtube-play
+{
+  margin-right: 15px ;
+}
+
+.nav-link,.navbar-brand
+{
+    color: black !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.maincard
+{
+    flex-wrap: wrap !important;
+} 
+.card
+{
+    width: 300px !important;
+    height: 330px !important;
+    margin-top: 40px !important;
+    margin-left: 30px ;
+    box-shadow: 5px 4px 2px gray !important;
+}
+
+.last
+{
+    background-color: black;
+    width: 100%;
+    height: 230px;
+    color: gray;
+    
+}
+.copy
+{
+     
+    text-align: center;
+}
+
+.face
+{
+position: relative;
+top: 10px;
+left: 50px;
+}
+
+.insta
+
+{
+position: relative;
+top: 10px;
+left: 70px;
+}
+
+.utube
+{
+position: relative;
+top: 10px;
+left: 85px;
+}
+.google
+{
+position: relative;
+top: 10px;
+left: 98px;
+}
+.facetext
+{
+    position: relative;
+    top: 10px;
+    left: 42px; 
+    color: white;
+    font-size: small;
+}
+
+.instatext
+{
+    position: relative;
+    bottom: 13px;
+    left: 110px;
+    color: white; 
+    font-size: small;
+}
+
+.utubetext
+{
+    position: relative;
+    bottom: 36px;
+    left: 180px; 
+    color: white;
+    font-size: small;
+}
+.googletext
+{
+    position: relative;
+    bottom: 59px;
+    left: 240px; 
+    color: white;
+    font-size: small;
+}
+
+.textt
+{
+    width: 150px;
+    height: 50px;
+}
+
+.face,.google,.insta,.utube {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.face:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .insta:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .utube:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .google:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+.ms 
+{
+    background-color: rgba(126, 126, 233, 0.808);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-outline-success
+{
+    background-color: green !important;
+    color: honeydew !important;
+}
+.contact
+{
+   position: relative;
+   left: 45px;
+   top: 5px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   width: 80px;
+    
+}
+.dash
+{
+    color: rgba(148, 148, 231, 0.808);
+    position: relative;
+    bottom: 6px;
+    left: 45px;
+    font-weight: bold;
+    width: 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #carouselExampleIndicators{height: 300px !important;}
+    .carousel-inner{height: 300px !important;}
+
+
+  }
+
+@media screen and (max-width: 992px)
+{
+    .collapse,.navbar-collapse
+    {
+        background-color: rgb(148, 148, 231) !important;
+        z-index: 1 !important;
+        
+    }
+    .fa-instagram,.fa-youtube-play,.fa-facebook-official
+    {
+        margin-left: 0px;
+        color: black;
+    }
+    .nav-link
+    {
+        color: black !important;
+        font-weight: bold !important;
+    }
+    .btn-secondary
+    {
+        margin-left: 0px !important;
+        color: none !important;
+        margin-right: 10px !important;
+        font-weight: bold !important;
+    }
+    .d-block
+    {
+        height: 300px !important;
+    }
+}
+@media screen and (max-width: 450px)
+{
+
+    #carouselExampleControls
+    {
+        height: 200px !important;
+    }
+
+    .d-block
+    {
+        height: 200px !important;
+    }
+}
+@media screen and (min-width: 435px)
+{
+
+    .col
+    {
+    margin-left: 2px ;
+     
+    }
+  
+}
+@media screen and (max-width: 435px)
+{
+    .card
+    {
+        margin-left: 5px !important;
+    }
+    .navbar-brand
+    {
+        font-size:  25px !important;
+    }
+    
+   
+}
+@media screen and (max-width: 360px )
+{
+    .card
+    {
+        margin-left: 5px !important;
+        width: 250px !important;
+        height: 280px !important;
+      
+    }
+    .navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size:  20px !important;
+    text-shadow: 2px 4px 2px gray;
+}
+    
+   
+}
+@media screen and (max-width: 360px)
+{
+    .card
+    {
+        margin-left: 5px !important;
+        width: 250px !important;
+        height: 280px !important;
+      
+    }
+    .navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size:  18px !important;
+    text-shadow: 2px 4px 2px gray;
+}
+    
+   
+}
+@media screen and (max-width: 366px)
+{
+
+    .navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size:  24px !important;
+    text-shadow: 2px 4px 2px gray;
+}
+    
+   
+}
+@media screen and (max-width: 355px)
+{
+   .googletext ,.utubetext
+   {
+       width: 30px ;
+   }
+
+
+    .navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size:  20px !important;
+    text-shadow: 2px 4px 2px gray;
+}
+.card
+{
+    margin-left: 20px !important;
+}
+    
+   
+}
+.card
+{
+    justify-content: space-between 4px;
+    margin-top: 35px !important;
+    margin-bottom: 5px !important;
+    box-shadow: 4px 4px 4px gray !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+    background-color: rgb(230, 230, 230) !important;
+}
+@media screen and (max-width: 720px)
+{
+    .heading{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 631px)
+{
+    .heading{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 545px)
+{
+    .heading{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 456px)
+{
+    .heading{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 404px)
+{
+    .heading{
+        font-size: 20px;
+    }
+}

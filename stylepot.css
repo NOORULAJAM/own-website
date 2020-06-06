@@ -1,0 +1,530 @@
+body
+{
+    background-color: rgb(39, 39, 39) !important;
+}
+.pro
+{
+    position: absolute;
+    top: 30px;
+    left: -150px;
+}
+
+.about
+{
+    position: absolute;
+    left: 560px;
+    top: 50px ;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+div > h2
+{
+    color: rgb(30, 131, 226) !important;
+    text-shadow: 2px 2px 2px yellowgreen;
+}
+.BSIT
+{
+    margin-left: 145px;
+    margin-top: 320px;
+    color: white;
+    font-size: 20px;
+}
+
+.webmobile
+{
+    margin-left: 745px;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+
+.AI
+{
+    margin-left: 145px;
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;  
+}
+
+.ccna
+{
+    margin-left: 745px;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+.deg
+{
+    height: 500px;
+    margin-left: 610px;
+    margin-top: -500px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px yellowgreen;
+}
+.degimg
+{
+    height: 500px;
+}
+.gd
+{
+    margin-left: 145px;
+    margin-top: -70px;
+    color: white;
+    font-size: 20px;
+}
+
+.last
+{
+    background-color: black;
+    width: 100%;
+    height: 230px;
+    color: gray;
+   
+    
+}
+.copy
+{
+     
+    text-align: center;
+}
+
+.face
+{
+position: relative;
+top: 10px;
+left: 50px;
+}
+
+.insta
+
+{
+position: relative;
+top: 10px;
+left: 70px;
+}
+
+.utube
+{
+position: relative;
+top: 10px;
+left: 85px;
+}
+.google
+{
+position: relative;
+top: 10px;
+left: 98px;
+}
+.facetext
+{
+    position: relative;
+    top: 10px;
+    left: 42px; 
+    color: white;
+    font-size: small;
+}
+
+.instatext
+{
+    position: relative;
+    bottom: 13px;
+    left: 110px;
+    color: white; 
+    font-size: small;
+}
+
+.utubetext
+{
+    position: relative;
+    bottom: 36px;
+    left: 180px; 
+    color: white;
+    font-size: small;
+}
+.googletext
+{
+    position: relative;
+    bottom: 59px;
+    left: 240px; 
+    color: white;
+    font-size: small;
+}
+
+.textt
+{
+    width: 150px;
+    height: 50px;
+}
+
+.face,.google,.insta,.utube {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.face:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .insta:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .utube:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .google:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .contact
+{
+    position: relative;
+    left: 45px;
+    top: 5px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   width: 90px;
+    
+}
+.dash
+{
+    color: rgba(148, 148, 231, 0.808);
+    position: relative;
+    bottom: 6px;
+    left: 45px;
+    font-weight: bold;
+    width: 90px;
+}
+
+
+@media screen and (max-width: 995px) {
+    .about 
+    {
+        margin-left: -140px;
+    }
+    .BSIT
+    {
+        margin-left: 90px;
+      
+    }
+    .webmobile
+{
+    margin-left: 690px;
+ 
+}
+
+.AI
+{
+    margin-left: 90px;
+    
+}
+
+.ccna
+{
+    margin-left: 690px;
+    
+}
+.deg
+{
+    margin-left: 540px;
+   
+}
+.gd
+{
+    margin-left: 90px;
+   
+}
+
+  }
+
+
+
+  @media screen and (max-width: 940px) {
+    .about 
+    {
+        margin-left: -190px;
+    }
+    .BSIT
+    {
+        margin-left: 50px;
+      
+    }
+    .webmobile
+{
+    margin-left: 640px;
+ 
+}
+
+.AI
+{
+    margin-left: 40px;
+    
+}
+
+.ccna
+{
+    margin-left: 640px;
+    
+}
+.deg
+{
+    margin-left: 490px;
+   
+}
+.gd
+{
+    margin-left: 40px;
+   
+}
+
+  }
+
+
+  @media screen and (max-width: 830px) {
+    .about 
+    {
+        margin-left: -240px;
+    }
+    .BSIT
+    {
+        margin-left: 10px;
+}
+    div > h5
+    {
+        font-size: 15px;
+    }
+    .webmobile
+{
+    margin-left: 380px;
+ 
+}
+
+.AI
+{
+    margin-left: 10px;
+    
+}
+
+.ccna
+{
+    margin-left: 380px;
+    
+}
+.deg
+{
+    margin-left: 330px;
+    margin-top: -400px;
+   
+}
+.gd
+{
+    margin-left: 10px;
+    margin-top: -150px;
+   
+}
+
+  } 
+
+  
+  @media screen and (max-width: 670px) {
+    .about 
+    {
+        margin-left: -290px;
+    }
+    .BSIT
+    {
+        margin-left: 10px;
+}
+    div > h5
+    {
+        font-size: 12px;
+    }
+    div > h2
+    {
+        font-size: 20px;
+    }
+    .webmobile
+{
+    margin-left: 300px;
+ 
+}
+.pro
+{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: -110px;
+}
+.degimg
+{
+    height: 500px;
+}
+.AI
+{
+    margin-left: 10px;
+    
+}
+
+.ccna
+{
+    margin-left: 300px;
+    
+}
+.deg
+{
+    margin-left: 260px;
+    margin-top: -330px;
+}
+
+
+.gd
+{
+    margin-left: 10px;
+    margin-top: -150px;
+   
+}
+
+  } 
+  @media screen and (max-width: 500px) {
+      .about{
+      margin-left: -350px;
+      }
+    }
+
+    @media screen and (max-width: 460px) {
+        .about 
+        {
+            margin-left: -350px;
+        }
+        .BSIT
+        {
+            margin-left: 10px;
+    }
+        div > h5
+        {
+            font-size: 10px;
+        }
+        div > h2
+        {
+            font-size: 16px;
+        }
+        .webmobile
+    {
+        margin-left: 250px;
+     
+    }
+    .pro
+    {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 15px;
+        left: -110px;
+    }
+    .degimg
+    {
+        height: 500px;
+    }
+    .AI
+    {
+        margin-left: 10px;
+        
+    }
+    
+    .ccna
+    {
+        margin-left: 250px;
+        
+    }
+    .deg
+    {
+        margin-left: 215px;
+        margin-top: -330px;
+    }
+    
+    
+    .gd
+    {
+        margin-left: 10px;
+        margin-top: -150px;
+       
+    }
+    
+      } 
+
+      @media screen and (max-width: 380px) {
+        .about 
+        {
+            margin-left: -400px;
+            width: 130px;
+        }
+        .BSIT
+        {
+            margin-left: 10px;
+            margin-top: 200px;
+    }
+        div > h5
+        {
+            font-size: 8px;
+        }
+        div > h2
+        {
+            font-size: 13px;
+        }
+        .webmobile
+    {
+        margin-left: 210px;
+     
+    }
+    .pro
+    {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 15px;
+        left: -110px;
+    }
+    .degimg
+    {
+        height: 250px;
+        margin-top: 120px;
+        margin-left: 10px ;
+    }
+    .AI
+    {
+        margin-left: 10px;
+        
+    }
+    
+    .ccna
+    {
+        margin-left: 210px;
+        
+    }
+    .deg
+    {
+        margin-left: 180px;
+        margin-top: -310px;
+        height: 390px;
+    }
+    
+    
+    .gd
+    {
+        margin-left: 10px;
+        margin-top: -60px;
+       
+    }
+    .googletext{
+        width: 90px;
+    }
+    
+      }      

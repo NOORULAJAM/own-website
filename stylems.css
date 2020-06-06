@@ -1,0 +1,206 @@
+.last
+{
+    background-color: black;
+    width: 100%;
+    height: 230px;
+    color: gray;
+    
+}
+.copy
+{
+     
+    text-align: center;
+}
+
+.face
+{
+position: relative;
+top: 10px;
+left: 50px;
+}
+
+.insta
+
+{
+position: relative;
+top: 10px;
+left: 70px;
+}
+
+.utube
+{
+position: relative;
+top: 10px;
+left: 85px;
+}
+.google
+{
+position: relative;
+top: 10px;
+left: 98px;
+}
+.facetext
+{
+    position: relative;
+    top: 10px;
+    left: 42px; 
+    color: white;
+    font-size: small;
+}
+
+.instatext
+{
+    position: relative;
+    bottom: 13px;
+    left: 110px;
+    color: white; 
+    font-size: small;
+}
+
+.utubetext
+{
+    position: relative;
+    bottom: 36px;
+    left: 180px; 
+    color: white;
+    font-size: small;
+}
+.googletext
+{
+    position: relative;
+    bottom: 59px;
+    left: 240px; 
+    color: white;
+    font-size: small;
+}
+
+.textt
+{
+    width: 150px;
+    height: 50px;
+}
+
+.face,.google,.insta,.utube {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.face:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .insta:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .utube:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .google:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+.ms 
+{
+    background-color: rgba(126, 126, 233, 0.808);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact
+{
+    position: relative;
+    left: 45px;
+    top: 5px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   width: 90px;
+    
+}
+.dash
+{
+    color: rgba(148, 148, 231, 0.808);
+    position: relative;
+    bottom: 6px;
+    left: 45px;
+    font-weight: bold;
+    width: 90px;
+}
+.card
+{
+    margin-top: 35px !important;
+    margin-bottom: 5px !important;
+    box-shadow: 4px 4px 4px gray !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+    background-color: rgb(230, 230, 230) !important;
+}
+
+body
+{
+    background-color:rgba(202, 202, 202, 0.877) !important;
+}
+
+.btn-primary
+{
+    width: 100px !important;
+}
+.navbar-brand
+{
+    
+    color: black !important;
+    font-weight: bold;
+    font-size: 2em !important;
+    text-shadow: 2px 4px 2px gray;
+}
+.bg-lights
+{
+    background-color: rgba(126, 126, 233, 0.808) !important;
+    width: 100%;
+    height: 70px;
+}
+.btn-secondary
+{
+    background-color: rgba(148, 148, 231, 0.808) !important;
+    border: none !important;
+    color: black !important;
+    margin-top: 2px;
+}
+.fa-instagram
+{
+margin-right: 15px;
+margin-left: 10px;
+ 
+}
+.social
+{
+    color: black;
+}
+.fa-facebook-official
+{
+  
+   margin-right: 15px;
+}
+.fa-youtube-play
+{
+  margin-right: 15px ;
+}
+.btn-outline-success
+{
+    background-color: green !important;
+    color: honeydew !important;
+}
+.heading
+{
+    text-align: center;
+    background-color: rgba(148, 148, 231, 0.808);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 4px 2px 4px gray;
+    height: 50px;
+}

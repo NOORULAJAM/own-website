@@ -1,0 +1,324 @@
+body
+{
+    background-color: rgb(39, 39, 39) !important;
+}
+.pro
+{
+    position: absolute;
+    top: 30px;
+    left: -150px;
+}
+
+.about
+{
+    position: absolute;
+    left: 560px;
+    top: 50px ;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+div > h2
+{
+    color: rgb(30, 131, 226) !important;
+    text-shadow: 2px 2px 2px yellowgreen;
+}
+.BSIT
+{
+    margin-left: 145px;
+    margin-top: 320px;
+    color: white;
+    font-size: 20px;
+}
+
+.webmobile
+{
+    margin-left: 745px;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+
+.AI
+{
+    margin-left: 145px;
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;  
+}
+
+.ccna
+{
+    margin-left: 745px;
+    margin-top: -40px;
+    color: white;
+    font-size: 20px;
+}
+.deg
+{
+    height: 500px;
+    margin-left: 610px;
+    margin-top: -500px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px yellowgreen;
+}
+.degimg
+{
+    height: 500px;
+}
+.gd
+{
+    margin-left: 145px;
+    margin-top: -70px;
+    color: white;
+    font-size: 20px;
+}
+
+.last
+{
+    background-color: black;
+    width: 100%;
+    height: 230px;
+    color: gray;
+   
+    
+}
+.copy
+{
+     
+    text-align: center;
+}
+
+.face
+{
+position: relative;
+top: 10px;
+left: 50px;
+}
+
+.insta
+
+{
+position: relative;
+top: 10px;
+left: 70px;
+}
+
+.utube
+{
+position: relative;
+top: 10px;
+left: 85px;
+}
+.google
+{
+position: relative;
+top: 10px;
+left: 98px;
+}
+.facetext
+{
+    position: relative;
+    top: 10px;
+    left: 42px; 
+    color: white;
+    font-size: small;
+}
+
+.instatext
+{
+    position: relative;
+    bottom: 13px;
+    left: 110px;
+    color: white; 
+    font-size: small;
+}
+
+.utubetext
+{
+    position: relative;
+    bottom: 36px;
+    left: 180px; 
+    color: white;
+    font-size: small;
+}
+.googletext
+{
+    position: relative;
+    bottom: 59px;
+    left: 240px; 
+    color: white;
+    font-size: small;
+}
+
+.textt
+{
+    width: 150px;
+    height: 50px;
+}
+
+.face,.google,.insta,.utube {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.face:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .insta:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .utube:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .google:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .contact
+{
+    position: relative;
+    left: 45px;
+    top: 5px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   width: 90px;
+    
+}
+.dash
+{
+    color: rgba(148, 148, 231, 0.808);
+    position: relative;
+    bottom: 6px;
+    left: 45px;
+    font-weight: bold;
+    width: 90px;
+}
+
+
+      @media screen and (max-width: 380px) {
+
+    .googletext{
+        width: 90px;
+    }
+    
+      }   
+
+
+.congoogle
+{
+    margin-top: 89px;
+    margin-left: 50px;
+}
+.coninsta
+{
+    margin-top: 89px;
+    margin-left: 50px;
+}
+.conface
+{
+    margin-top: 89px;
+    margin-left: 450px;
+}
+.conyou
+{
+    margin-top: 89px;
+    margin-left: 50px;
+}
+
+.conface,.congoogle,.coninsta,.conyou {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.conface:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .coninsta:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .conyou:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  .congoogle:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  @media screen and (max-width: 1120px)
+  {
+      .conface{
+        margin-left: 380px;
+      }
+  }
+
+  @media screen and (max-width: 1090px)
+  {
+      .conface{
+        margin-left: 300px;
+      }
+  }
+  @media screen and (max-width: 930px)
+  {
+      .conface{
+        margin-left: 250px;
+      }
+  }
+  @media screen and (max-width: 820px)
+  {
+      .conface{
+        margin-left: 200px;
+      }
+  }
+  @media screen and (max-width: 780px)
+  {
+      .conface{
+        margin-left: 150px;
+      }
+  }
+  @media screen and (max-width: 675px)
+  {
+      .conface{
+        margin-left: 100px;
+      }
+  }
+  @media screen and (max-width: 575px)
+  {
+      .conface{
+        margin-left: 50px;
+      }
+  }
+  @media screen and (max-width: 510px)
+  {
+      .conface{
+        margin-left: 10px;
+      }
+      .congoogle,.conyou,.coninsta
+      {
+        margin-left: 30px;
+      }
+  }
+
+  @media screen and (max-width: 405px)
+  {
+      .conface{
+        margin-left: 0px;
+      }
+      .congoogle,.conyou,.coninsta
+      {
+        margin-left: 10px;
+      }
+  }
